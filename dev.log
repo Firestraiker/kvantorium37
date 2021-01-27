@@ -1,0 +1,41 @@
+2021-01-27 18:54:22,072 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000002213B337370>
+2021-01-27 18:54:22,073 - apscheduler.scheduler - INFO - Scheduler started
+2021-01-27 18:54:22,074 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2021-01-27 18:54:22,074 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2021-01-27 18:54:22,074 - telegram.bot - DEBUG - Entering: get_me
+2021-01-27 18:54:22,074 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org
+2021-01-27 18:54:22,293 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1173900008:AAEH1M8St4toafkR0KX-KiREt4bGjMKInpc/getMe HTTP/1.1" 200 197
+2021-01-27 18:54:22,296 - telegram.bot - DEBUG - {'id': 1173900008, 'first_name': 'MyFirstBot', 'is_bot': True, 'username': 'tagirahmad_bot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2021-01-27 18:54:22,296 - telegram.bot - DEBUG - Exiting: get_me
+2021-01-27 18:54:22,297 - telegram.bot - DEBUG - Entering: get_my_commands
+2021-01-27 18:54:22,390 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1173900008:AAEH1M8St4toafkR0KX-KiREt4bGjMKInpc/getMyCommands HTTP/1.1" 200 23
+2021-01-27 18:54:22,391 - telegram.bot - DEBUG - []
+2021-01-27 18:54:22,391 - telegram.bot - DEBUG - Exiting: get_my_commands
+2021-01-27 18:54:22,392 - telegram.ext.updater - DEBUG - Bot:1173900008:dispatcher - started
+2021-01-27 18:54:22,394 - telegram.ext.updater - DEBUG - Bot:1173900008:updater - started
+2021-01-27 18:54:22,394 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2021-01-27 18:54:22,395 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2021-01-27 18:54:22,395 - telegram.bot - DEBUG - Entering: delete_webhook
+2021-01-27 18:54:22,396 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2021-01-27 18:54:22,398 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2021-01-27 18:54:22,445 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1173900008:AAEH1M8St4toafkR0KX-KiREt4bGjMKInpc/deleteWebhook HTTP/1.1" 200 68
+2021-01-27 18:54:22,445 - telegram.bot - DEBUG - True
+2021-01-27 18:54:22,445 - telegram.bot - DEBUG - Exiting: delete_webhook
+2021-01-27 18:54:22,446 - telegram.ext.updater - DEBUG - Bootstrap done
+2021-01-27 18:54:22,446 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2021-01-27 18:54:22,446 - telegram.bot - DEBUG - Entering: get_updates
+2021-01-27 18:54:32,495 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1173900008:AAEH1M8St4toafkR0KX-KiREt4bGjMKInpc/getUpdates HTTP/1.1" 200 23
+2021-01-27 18:54:32,495 - telegram.bot - DEBUG - No new updates found.
+2021-01-27 18:54:32,495 - telegram.bot - DEBUG - []
+2021-01-27 18:54:32,495 - telegram.bot - DEBUG - Exiting: get_updates
+2021-01-27 18:54:32,495 - telegram.bot - DEBUG - Entering: get_updates
+2021-01-27 18:54:42,546 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1173900008:AAEH1M8St4toafkR0KX-KiREt4bGjMKInpc/getUpdates HTTP/1.1" 200 23
+2021-01-27 18:54:42,547 - telegram.bot - DEBUG - No new updates found.
+2021-01-27 18:54:42,547 - telegram.bot - DEBUG - []
+2021-01-27 18:54:42,547 - telegram.bot - DEBUG - Exiting: get_updates
+2021-01-27 18:54:42,547 - telegram.bot - DEBUG - Entering: get_updates
+2021-01-27 18:54:52,597 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1173900008:AAEH1M8St4toafkR0KX-KiREt4bGjMKInpc/getUpdates HTTP/1.1" 200 23
+2021-01-27 18:54:52,597 - telegram.bot - DEBUG - No new updates found.
+2021-01-27 18:54:52,598 - telegram.bot - DEBUG - []
+2021-01-27 18:54:52,598 - telegram.bot - DEBUG - Exiting: get_updates
+2021-01-27 18:54:52,598 - telegram.bot - DEBUG - Entering: get_updates
